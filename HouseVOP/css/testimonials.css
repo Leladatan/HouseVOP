@@ -1,0 +1,82 @@
+.testimonials {
+    padding-bottom: 120px;
+}
+
+/* cards */
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-first-duo {
+    display: flex;
+}
+
+.cards-second-duo {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.bicycle {
+    margin: 0;
+}
+
+.card img {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+
+/* text */
+.text-testimonials {
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
+
+
+
+/* Адаптив */
+
+@media screen and (max-width: 769px) {
+    .cards {
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin: 0;
+        width: 200px;
+    }
+
+    .fountain {
+        margin-top: 40px;
+    }
+
+    .bicycle {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        max-width: 150px;
+    }
+}

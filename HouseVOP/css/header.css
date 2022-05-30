@@ -1,0 +1,91 @@
+.wrapper {
+    background-image: url(../img/background-main__screen.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 30px 0 0 0;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title {
+    font-family: 'PNBJ-SB';
+    font-size: 36px;
+    color: #fff;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+.logo-text {
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 2.5px;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+/* nav */
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu_item {
+    font-size: 14px;
+    padding: 0 20px;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+/* hover */
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo-title:hover {
+    border-bottom: 0px;
+    color: #bebebe;
+}
+
+/* Адаптив */
+@media screen and (max-width: 1110px) {
+    .logo {
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding-top: 10px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+}

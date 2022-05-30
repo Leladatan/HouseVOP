@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap');
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
 
-/* font-family: 'Playfair Display'; */
-/* font-family: 'Raleway'; */
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
 @font-face {
     font-family: 'PNBJ-SB';
     src: url(../fonts/PostNoBillsJaffna-SemiBold.ttf);

@@ -1,0 +1,94 @@
+/* main */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 582px;
+    margin: 200px 0;
+}
+
+.main__content_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 75px;
+}
+
+/* Текст */
+.text-main {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
+
+/* Заголовки */
+.title-main {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    color: #D4C17F;
+    text-align: center;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+/* Ссылки */
+
+/* img */
+.mouse {
+    margin-top: 100px;
+}
+
+.mouse img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+/* main-nav */
+.main__nav {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Адаптив */
+@media screen and (max-width: 769px) {
+    .main__nav {
+        flex-direction: column;
+    }
+
+    .phone {
+        margin-top: 30px;
+        padding-right: 50px;
+        padding-right: 0;
+    }
+}

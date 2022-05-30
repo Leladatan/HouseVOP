@@ -1,1 +1,93 @@
 @import url("../css/fonts.css");
+@import url("../css/header.css");
+@import url("../css/main.css");
+@import url("../css/testimonials.css");
+@import url("../css/footer.css");
+
+/* Обшие настройки */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #242B33;
+}
+
+/* Ссылки */
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+/* Списки */
+ul {
+    list-style: none;
+}
+
+li {
+    color: #fff;
+}
+
+ol {
+    list-style: none;
+}
+
+/* Текст */
+
+.text {
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Заголовки */
+
+
+.title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+/* Кнопки */
+.btn {
+    padding: 11px 53px;
+    color: #fff;
+    background-color: #D4C17F;
+}
+
+/* Инпуты */
+.input {
+    opacity: 0.2;
+    color: #bebebe;
+    background-color: #fff;
+}
+
+/* hover */
+a:hover {
+    color: #bebebe;
+    border-bottom: 2px solid #bebebe;
+
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* active */
