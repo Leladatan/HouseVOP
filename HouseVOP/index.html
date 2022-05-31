@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HouseVOP</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -97,8 +98,75 @@
             <!-- appartments -->
             <div class="appartments">
                 <div class="header__appartments">
-
+                    <h3 class="title">Наши квартиры</h3>
                 </div>
+                <div class="appartments__photos">
+                    <div class="appartments__first-block">
+                        <div class="photo">
+                            <img src="img/one-three.png" alt="flat">
+                            <span class="signature">Лофт - 3 этажа</span>
+                        </div>
+                        <div class="photo">
+                            <img src="img/one-three.png" alt="flat">
+                            <span class="signature">Лофт - 3 этажа</span>
+                        </div>
+                    </div>
+                    <div class="appartments__second-block">
+                        <div class="photo">
+                            <img src="img/two-four.png" alt="flat">
+                            <span class="signature">Лофт - 2 этажа</span>
+                        </div>
+                        <div class="photo">
+                            <img src="img/two-four.png" alt="flat">
+                            <span class="signature">Лофт - 2 этажа</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider -->
+                <section id="slider_bl">
+                    <div class="slider__wrapper">
+                      <input checked type=radio name="slider" id="slide1" />
+                      <input type=radio name="slider" id="slide2" />
+                      <input type=radio name="slider" id="slide3" />
+                      <input type=radio name="slider" id="slide4" />
+                      <div class="slider-wrapper">
+                        <div class=inner>
+                          <article>
+                            <div class="info top-left">
+                              <h3>Лофт - 3 этажа</h3></div>
+                            <img src="img/one-three.png" />
+                          </article>
+                          <article>
+                            <div class="info bottom-right">
+                              <h3>Лофт - 3 этажа</h3></div>
+                            <img src="img/one-three.png" />
+                          </article>
+                          <article>
+                            <div class="info bottom-left">
+                              <h3>Лофт - 2 этажа</h3></div>
+                            <img src="img/two-four.png" />
+                          </article>
+                          <article>
+                            <div class="info top-right">
+                              <h3>Лофт - 2 этажа</h3></div>
+                            <img src="img/two-four.png" />
+                          </article>
+                        </div>
+                      </div>
+                      <div class="slider-prev-next-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                      </div>
+                      <div class="slider-dot-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                        <label for=slide3></label>
+                        <label for=slide4></label>
+                      </div>
+                    </div>
+                </section>
             </div>
             <!-- footer -->
         </div>

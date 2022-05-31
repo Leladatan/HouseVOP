@@ -23,6 +23,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 30px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .bicycle {
