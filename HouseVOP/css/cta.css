@@ -1,3 +1,8 @@
+/* text */
+.cta__text {
+    font-size: 16px;
+}
+
 /* input */
 .input-name {
     padding: 11px 93px;
