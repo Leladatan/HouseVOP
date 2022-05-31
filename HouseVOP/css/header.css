@@ -75,7 +75,6 @@
     opacity: 0;
 }
 
-/* стилизуем кнопку */
 .menu__btn {
     display: flex;
     align-items: center;
@@ -88,7 +87,6 @@
     z-index: 3;
 }
 
-/* добавляем "гамбургер" */
 .menu__btn>span,
 .menu__btn>span::before,
 .menu__btn>span::after {
@@ -131,7 +129,7 @@
     display: block;
     padding: 12px 24px;
     color: #bebebe;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
