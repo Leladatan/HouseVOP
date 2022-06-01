@@ -53,6 +53,28 @@
     padding: 18px 45px;
 }
 
+/* focus */
+.btn__cta-form:focus {
+    color: #333;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* hover */
+.btn__cta-form:hover {
+    color: #333;
+    background-color: #bebebe;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 /* media */
 @media screen and (max-width: 1110px) {
     .btn__cta-form {
