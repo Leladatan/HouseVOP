@@ -1,0 +1,17 @@
+/* map */
+.map {}
+
+.header__map {
+    display: flex;
+}
+
+.map-item {
+    width: 1110px;
+    padding: 100px 15px 0;
+}
+
+.map__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
