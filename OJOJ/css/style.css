@@ -1,12 +1,122 @@
-@import url();
+@import url(nav.css);
 @import url();
 @import url();
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #3a3b3c;
 }
 
 .container {
     max-width: 1110px;
     margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* main */
+.first-screen {
+    background-image: url(../img/first-screen/bgc.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.main {
+    padding-top: 525px;
+}
+
+.main-content__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.main-content__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 0;
+    border-top: 2px solid #fff;
+}
+
+/* btn */
+button:hover {
+    cursor: pointer;
+}
+
+.main-btn {
+    padding: 15px 35px;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #fff;
+}
+
+.main-btn:hover {
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+
+/* media */
+@media screen and (max-width: 1170px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 993px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container {
+        max-width: 596px;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .container {
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .container {
+        max-width: 300px;
+    }
 }
