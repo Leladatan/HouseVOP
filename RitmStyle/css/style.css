@@ -1,0 +1,93 @@
+@import url(header.css);
+
+/* settings */
+* {
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #162831;
+}
+
+/* list */
+ul {
+    list-style: none;
+}
+
+/* link */
+a {
+    text-decoration: none;
+}
+
+/* btn */
+.btn {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* media */
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 993px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container {
+        max-width: 596px;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .container {
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .container {
+        max-width: 300px;
+    }
+}

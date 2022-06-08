@@ -1,0 +1,107 @@
+.main {
+    padding: 50px 0 150px 0;
+}
+
+.main-content {
+    max-width: 1300px;
+    background-image: url(../../img/homepage/main/first-screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.main-content__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content__title-title {
+    padding-top: 136px;
+    padding-bottom: 20px;
+}
+
+.pod-title {
+    font-size: 24px;
+}
+
+.main-content__title-main-title {
+    padding-bottom: 210px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 64px;
+
+}
+
+/* media */
+@media screen and (max-width: 1024px) {
+    .main-content {
+        background-position: center center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .main-title {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .pod-title {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+
+    .main-title {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .main-content__title-title {
+        padding-bottom: 0px;
+    }
+
+    .main-content__title-main-title {
+        padding-bottom: 210px;
+        line-height: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .pod-title {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    .main-title {
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        -o-transform: scale(0.6);
+    }
+}
