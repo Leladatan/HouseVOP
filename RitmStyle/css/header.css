@@ -5,6 +5,7 @@
     top: 0;
     background-color: #162831;
     z-index: 11;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
 
 .header__navbar {
@@ -49,6 +50,11 @@
 /* btn */
 .header-btn {
     background-color: #018ABE;
+}
+
+.header-btn:hover {
+    color: #018ABE;
+    background-color: #fff;
 }
 
 /* burger menu */
@@ -106,7 +112,7 @@
     padding: 90px 0;
     list-style: none;
     text-align: center;
-    background-color: #018ABE;
+    background-color: #162831;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     z-index: 2;
 }
@@ -115,6 +121,11 @@
 
 .burger-header-btn {
     background-color: #018ABE;
+}
+
+.burger-header-btn:hover {
+    color: #018ABE;
+    background-color: #fff;
 }
 
 .menu__item {
