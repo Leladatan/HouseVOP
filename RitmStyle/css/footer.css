@@ -1,0 +1,11 @@
+/* footer */
+.footer {
+    padding-top: 30px;
+    border-top: 2px solid rgba(255, 255, 255, .5);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
