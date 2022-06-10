@@ -1056,6 +1056,22 @@
     .maps-list_item::before {
         right: 80%;
     }
+
+    .price-menu__items {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        -moz-transform: scale(0.77);
+        -ms-transform: scale(0.77);
+        -o-transform: scale(0.77);
+    }
+
+    .price-menu__item-price {
+        transform: scale(0/77);
+        -webkit-transform: scale(0/77);
+        -moz-transform: scale(0/77);
+        -ms-transform: scale(0/77);
+        -o-transform: scale(0/77);
+    }
 }
 
 @media screen and (max-width: 326px) {
