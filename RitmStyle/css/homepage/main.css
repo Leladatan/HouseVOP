@@ -991,6 +991,16 @@
 }
 
 @media screen and (max-width: 426px) {
+    .price-content__right-img {
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    .price-content__right {
+        margin: 0;
+    }
+
     .main-content__title-title {
         padding-bottom: 0px;
     }
