@@ -1010,6 +1010,14 @@
     .v {
         margin-top: 0px;
     }
+
+    .maps-content__right_top {
+        height: auto;
+    }
+
+    .maps-content__right_bottom {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 426px) {
