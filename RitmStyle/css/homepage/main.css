@@ -84,7 +84,7 @@
     background-image: url(../../img/homepage/main/right-list-blue.svg);
     background-repeat: no-repeat;
     top: 22%;
-    right: 38%;
+    right: 35%;
 }
 
 .podtitle::before {
@@ -95,7 +95,7 @@
     background-image: url(../../img/homepage/main/left-list-blue.svg);
     background-repeat: no-repeat;
     top: 22%;
-    left: 38%;
+    left: 35%;
 }
 
 .sessions-content {
@@ -472,8 +472,6 @@
 }
 
 /* info */
-/* info */
-.info {}
 
 .info-content {
     display: flex;
@@ -763,11 +761,11 @@
     }
 
     .podtitle::after {
-        right: 30%;
+        right: 25%;
     }
 
     .podtitle::before {
-        left: 30%;
+        left: 25%;
     }
 
     .maps-content__right_bottom {
