@@ -60,6 +60,7 @@
 /* burger menu */
 .hamburger-menu {
     display: none;
+    position: relative;
 }
 
 #menu__toggle {
@@ -71,8 +72,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 49px;
-    right: 80px;
+    top: -7px;
     width: 26px;
     height: 26px;
     cursor: pointer;
