@@ -998,6 +998,18 @@
     .maps-list_item::before {
         right: 81%;
     }
+
+    .geo {
+        margin-top: 0px;
+    }
+
+    .kale {
+        margin-top: 0px;
+    }
+
+    .v {
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 426px) {
