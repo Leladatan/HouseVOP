@@ -612,6 +612,120 @@
     margin-top: 30px;
 }
 
+/* maps */
+.maps-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* text */
+.maps-title {
+    font-size: 24px;
+}
+
+/* left */
+.maps-content__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 856px;
+    height: 604px;
+}
+
+.maps-content__left-map {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* right */
+.maps-content__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 50%;
+    max-width: 800px;
+}
+
+.maps-content__right_top {
+    position: relative;
+    width: 100%;
+    max-width: 392px;
+    padding: 35px 45px;
+    background-color: #018abe;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.maps-content__right_bottom {
+    position: relative;
+    width: 100%;
+    max-width: 392px;
+    padding: 35px 45px;
+    background-color: #018abe;
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* list */
+.maps-list_item {
+    padding-left: 40px;
+    margin: 19px 0;
+}
+
+.maps-list_item::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    right: 80%;
+}
+
+.maps-list_item-1::before {
+    background-image: url(../../img/homepage/main/maps/geo.svg);
+}
+
+.maps-list_item-2::before {
+    background-image: url(../../img/homepage/main/maps/M.svg);
+}
+
+
+.maps-list_item-3::before {
+    background-image: url(../../img/homepage/main/maps/spisok.svg);
+}
+
+
+/* btn */
+.maps-btn {
+    margin-top: 15px;
+    color: #018abe;
+    background-color: #fff;
+}
+
+.maps-btn:hover {
+    color: #fff;
+    background-color: #162831;
+}
+
+
 @media only screen and (max-width:850px) and (min-width:450px) {
     #slider_bl .slider-wrapper {
         border-radius: 0
@@ -655,6 +769,10 @@
     .podtitle::before {
         left: 30%;
     }
+
+    .maps-content__right_bottom {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 993px) {
@@ -673,6 +791,30 @@
     .price-content__right {
         margin-left: 30px;
     }
+
+    .maps-content {
+        flex-direction: column;
+    }
+
+    .maps-content__right {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .maps-content__right_top {
+        height: 330px;
+        margin: 0 40px 0 0;
+    }
+
+    .maps-content__right_bottom {
+        height: 330px;
+        margin: 0;
+    }
+
+
 }
 
 @media screen and (max-width: 769px) {
@@ -727,6 +869,12 @@
     .price__signature-img {
         margin-top: 20px;
     }
+
+    .maps-list_item::before {
+        right: 75%;
+    }
+
+
 }
 
 @media screen and (max-width: 597px) {
@@ -793,6 +941,26 @@
     .price-content__right-img {
         background-size: contain;
     }
+
+    .maps-content__right {
+        flex-direction: column;
+    }
+
+    .maps-content__right_top {
+        margin: 0;
+    }
+
+    .maps-content__right_bottom {
+        margin-top: 30px;
+    }
+
+    .maps-content__left-map {
+        height: 80%;
+    }
+
+    .maps-list_item::before {
+        right: 81%;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -851,4 +1019,15 @@
     .price-menu__item-price {
         margin-left: 30px;
     }
+
+    .maps-list_item::before {
+        right: 80%;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .maps-list_item::before {
+        right: 77%;
+    }
+
 }
