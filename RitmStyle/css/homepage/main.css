@@ -880,6 +880,14 @@
         margin-left: 50px;
     }
 
+    .price-menu__item-price {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+
     .price-menu__items {
         transform: scale(0.9);
         -webkit-transform: scale(0.9);
