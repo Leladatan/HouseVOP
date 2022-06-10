@@ -9,3 +9,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 597px) {
+    .footer-content {
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        -o-transform: scale(0.6);
+    }
+}
