@@ -876,6 +876,10 @@
 }
 
 @media screen and (max-width: 597px) {
+    .price-menu__item-price {
+        margin-left: 50px;
+    }
+
     .pod-title {
         transform: scale(0.9);
         -webkit-transform: scale(0.9);
@@ -981,11 +985,11 @@
     }
 
     .podtitle::after {
-        right: 10%;
+        right: 0%;
     }
 
     .podtitle::before {
-        left: 10%;
+        left: 0%;
     }
 }
 
